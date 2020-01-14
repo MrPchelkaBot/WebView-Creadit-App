@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Wybierz bank</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/limecredit.png'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Pierwsza pożyczka:<span>poniżej 0%</span></b></li>
+        <li>Pierwsza pożyczka:<span>do 3600 zł</span></li>
+        <li>Ponowna pożyczka:<span>do 3600 zł</span></li>
+        <li>Okres kredytowania:<span>od 65 dni</span></li>
+        <li>Oprocentowanie kredytu:<span>od 0% do 1%</span></li>
+      </ul>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("http://tovpotok.com/16EV?sub1=1251756778.1568687725&sub_id_7=ios")'
+          slot="end">Zdobądź pieniądze
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/euroloanmaksutapalogo.jpg'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Pierwsza pożyczka:<span>poniżej 0%</span></b></li>
+        <li>Pierwsza pożyczka:<span>do 40 000 zł</span></li>
+        <li>Ponowna pożyczka:<span>do 40 000 zł</span></li>
+        <li>Okres kredytowania:<span>od 65 dni</span></li>
+        <li>Oprocentowanie kredytu:<span>od 0% do 1%</span></li>
+      </ul>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/a8332d4ffdcce5847159fb86143d2195?aff_sub1=1251756778.1568687725&sub_id_7=ios")'
+          slot="end">Zdobądź pieniądze
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/santanderconsumer.png'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Pierwsza pożyczka:<span>poniżej 0%</span></b></li>
+        <li>Pierwsza pożyczka:<span>do 15 000 zł</span></li>
+        <li>Ponowna pożyczka:<span>do 15 000 zł</span></li>
+        <li>Okres kredytowania:<span>od 65 dni</span></li>
+        <li>Oprocentowanie kredytu:<span>od 0% do 1%</span></li>
+      </ul>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/929f03ce80862d8704031164baae794c?aff_sub1=1251756778.1568687725&sub_id_7=ios")'
+          slot="end">Zdobądź pieniądze
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

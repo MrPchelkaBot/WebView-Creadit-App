@@ -1,0 +1,246 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Выберите банк
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/mycreditkz.png'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 70 000 ₸</span></li>
+        <li>Повторный займ:<span>до 150 000 ₸</span></li>
+        <li>Срок займа:<span>до 30 дней</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("MycreditkzModal")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/dd5a3437d973579f1e759d3e83d9f985?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/moneyman.png'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 100 000 ₸</span></li>
+        <li>Повторный займ:<span>до 200 000 ₸</span></li>
+        <li>Срок займа:<span>от 28 дней</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("MoneyManModal")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/a6482280594d9c84a1499c6fc4b5f881?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/kredit7.jpg'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 100 000 ₸</span></li>
+        <li>Повторный займ:<span>до 200 000 ₸</span></li>
+        <li>Срок займа:<span>от 7 дней</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("Kredit7Modal")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/736b8e7741f3c60f2230d221545e191f?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/zaymer.svg'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 100 000 ₸</span></li>
+        <li>Повторный займ:<span>до 250 000 ₸</span></li>
+        <li>Срок займа:<span>от 65 дней</span></li>
+        <li>Ставка:<span>от 1.3% до 1.81%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("Zaymer")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/5b003abfea7c108ec18c61fb3dc828b5?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/turbomoney.jpg'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 100 000 ₸</span></li>
+        <li>Повторный займ:<span>до 200 000 ₸</span></li>
+        <li>Срок займа:<span>от 30 дней</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("Turbomoney")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/21c0ed28b3344329b442554ed3c87d3d?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/kredit24kz.jpg'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 100 000 ₸</span></li>
+        <li>Повторный займ:<span>до 149 000 ₸</span></li>
+        <li>Срок займа:<span>до 31 дня</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("Kredit24kz")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("http://tovpotok.com/ff7V?sub1=1213189133.1571022842&sub_id_7=ios")' slot="end">Получить
+          деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/gofingo.png'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 100 000 ₸</span></li>
+        <li>Повторный займ:<span>до 250 000 ₸</span></li>
+        <li>Срок займа:<span>до 31 дня</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("gofingo")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/70d85f724c3ecfe6e0e8c4ab0d0b0fca?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить
+          деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/gomoney.png'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 100 000 ₸</span></li>
+        <li>Повторный займ:<span>до 200 000 ₸</span></li>
+        <li>Срок займа:<span>до 30 дней</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("gomoney")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/eff705c56dd0da6df44f837282dd48c2?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить
+          деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/dopoluchki.svg'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 100 000 ₸</span></li>
+        <li>Повторный займ:<span>до 150 000 ₸</span></li>
+        <li>Срок займа:<span>до 30 дней</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("dopoluchki")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/5a1eb15bfbeca7894e4168f9f6a4dcf5?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить
+          деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/dengiclick.png'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 60 000 ₸</span></li>
+        <li>Повторный займ:<span>до 300 000 ₸</span></li>
+        <li>Срок займа:<span>до 30 дней</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("dengiclick")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/a0cde5a5df4ca51513ab98c532d2d194?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить
+          деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img style="margin-top: 10px;" width="60%" [src]="'assets/images/100t.png'" />
+    <ion-card-content>
+      <ul class="options">
+        <li><b>Первый займ:<span>под 0%</span></b></li>
+        <li>Первый займ:<span>до 100 000 ₸</span></li>
+        <li>Повторный займ:<span>до 1500 000 ₸</span></li>
+        <li>Срок займа:<span>до 31 дня</span></li>
+        <li>Ставка:<span>от 0% до 1%</span></li>
+      </ul>
+      <div class="conditions">
+        <ion-button slot="end" (click)='showConditions("100t")'>Условия</ion-button>
+      </div>
+      <div class="get_money">
+        <ion-button class="button_money"
+          (click)='getMoney("https://pxl.leads.su/click/d34c50a531c339196089cdc2b76325a2?aff_sub1=1213189133.1571022842&sub_id_7=ios")'
+          slot="end">Получить
+          деньги
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+		<domain>tovpotok.com</domain>
+		<domain>https://pxl.leads.su</domain>
+		<domain>https://leads.su</domain>
+		<domain>turbozaim.ru</domain>
+		<domain>www.kredito24.ru</domain>
+		<domain>glavfinans.ru</domain>
+		<domain includeSubdomains="true">otlnal.ru</domain>
+		<domain>online-zaim.ru</domain>
+		<domain>turbomoney.kz</domain>
+		<domain>dengiclick.kz</domain>
+		<domain includeSubdomains="true">g2afse.com</domain>
+		<domain includeSubdomains="true">tradedoubler.com</domain>
+		<domain includeSubdomains="true">masoffer.net</domain>
+		<domain>cashwagon.vn</domain>
+		<domain includeSubdomains="true">f88.vn</domain>
+		<domain includeSubdomains="true">tima.vn</domain>
+		<domain includeSubdomains="true">mafc.com.vn</domain>
+		<domain>vaynhanhshbfinance.com.vn</domain>
+		<domain includeSubdomains="true">eurogroshi.com.ua</domain>
+		<domain includeSubdomains="true">gofingo.com.ua</domain>
+    </domain-config>
+</network-security-config>

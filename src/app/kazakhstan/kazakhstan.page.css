@@ -1,0 +1,22 @@
+.options {
+  padding: 0;
+}
+.options li {
+  list-style: none;
+  position: relative;
+}
+.options li span {
+  float: right !important;
+}
+.conditions {
+  display: inline-block;
+}
+.get_money {
+  float: right;
+}
+.get_money .button_money {
+  --background: #ffcc00;
+  --background-focused: #ffcc00;
+  --background-hover: #ffdb4a;
+  color: #000;
+}
